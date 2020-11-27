@@ -23,7 +23,7 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {%- if site.email -%}
-        <p class="view"><a class="u-email" href="mailto:{{ site.email }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#mail' | relative_url }}"></use></svg> <span class="username">{{ site.email| escape }}</span></a></p>
+        <p class="view"><a class="u-email" href="mailto:{{ site.email }}"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#080000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg> <span class="username">{{ site.email| escape }}</span></a></p>
         {%- endif -%}
 
         {%- if site.github_username -%}
