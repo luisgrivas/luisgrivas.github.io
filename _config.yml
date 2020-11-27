@@ -1,3 +1,10 @@
 theme: jekyll-theme-minimal
 title: Luis G Rivas
-description: Blog
+description: Página personal.
+email: luisgzzrivas@gmail.com
+twitter_username: luisgrivas
+github_username: luisgrivas
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
