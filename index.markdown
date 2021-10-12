@@ -13,12 +13,8 @@ Este semestre tomaré las cursos de topología diferencial, grupos de Lie y repr
 
 Por otro lado, este semestre estaré trabajando con el [Dr. Igor Barahona](https://www.matem.unam.mx/fsd/igor) en un proyecto de análisis semántico de un corpus creado a partir de entrevistas de personas que padecieron COVID 19.
 
-Mi última publicación en mi blog: {% for post in site.posts limit:1 %}
-  <h3>
-  	<a class="post-link" href="{{ post.url | relative_url }}">
-  		{{ post.title | escape }}
-    </a>
-   </h3>
+Mi última publicación en mi blog: {% for post in site.posts limit:1 %} 
+<a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
 {% endfor %}
 
 
