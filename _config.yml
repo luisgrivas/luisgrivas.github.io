@@ -38,6 +38,15 @@ google_analytics: G-1JYNVC4MNX
 paginate: 6
 paginate_path: "/notas/page:num/"
 
+
+jekyll-archives:
+  enabled:
+    - tags
+  layouts:
+    tag: tag
+  permalinks:
+    tag: '/tag/:name/'
+
 # Build settings
 theme: minima
 plugins:
@@ -45,6 +54,9 @@ plugins:
   - jekyll-seo-tag
   - jemoji
   - jekyll-paginate
+  - jekyll-archives
+
+
 
 
 # Exclude from processing.
