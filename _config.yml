@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 header_pages:
-  - blog.markdown
+  - blog/index.html
   - bio.markdown
 
 twitter_username: luisgrivas
@@ -36,7 +36,7 @@ instagram_username: luisgrivas_
 google_analytics: G-1JYNVC4MNX
 
 paginate: 6
-paginate_path: "/notas/:num/"
+paginate_path: "/notas/page:num/"
 
 # Build settings
 theme: minima
