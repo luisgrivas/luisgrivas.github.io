@@ -3,7 +3,7 @@ layout: post
 title:  "Longitud de Arco"
 date:   2020-11-05 03:59:07 -0600
 categories: posts
-tags: análisis-real geometríaa-diferencial
+tags: análisis-real geometría-diferencial
 ---
 
 ## Funciones de variación acotada 
@@ -98,3 +98,6 @@ $$ \Lambda_f(a, b) = \int_{a}^b \lvert \lvert f^\prime(t) \lvert \lvert dt.$$
 ## Camino más corto
 
 **DRAFT** 
+
+---
+

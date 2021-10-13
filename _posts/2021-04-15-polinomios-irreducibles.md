@@ -143,13 +143,10 @@ $$
 N_n = \frac{1}{n} \sum_{d\mid n}\mu(d)p^{n/d}.
 $$
 
-
-
-**DRAFT**
-
----
-
 **Referencias**
 
 * Simmons, G. J., The Number of Irreducible Polynomials of Degree n over GF(p), Amer. Math. Monthly 77 (1970), pp. 743-745.
 * Apostol, T.M., Introducción a la Teoría Analítica de Números, Editorial Reverté
+
+---
+

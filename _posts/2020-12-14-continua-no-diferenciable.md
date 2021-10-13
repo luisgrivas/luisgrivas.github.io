@@ -76,5 +76,5 @@ Observe que $\lvert \left( \frac{3}{4} \right)^n \phi(4^n x) \lvert  \leq \left(
 
 
 
-![](/blog/assets/images/wr-connodif.gif)
+![](/assets/images/wr-connodif.gif)
 

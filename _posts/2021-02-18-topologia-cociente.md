@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Topología Cociente"
+title: "Topología cociente"
 date: 2021-01-18 12:00:00
 categories: posts
 tags: topología
@@ -35,13 +35,9 @@ Dada una partición, sabemos que esta induce una relación de equivalencia en $X
 
 
 
-
-
-
-
 **Teorema (Passing to the Quotient).** Sea $p: X \rightarrow Y$ un mapeo cociente. Sea $Z$ un espacio y sea $g: X \rightarrow Z$ un mapeo que es constante en todo conjunto de la forma $p^{-1}(\{y\})$, para $y\in Y$. Entonces $g$ induce un mapeo $f: Y \rightarrow Z$ tal que $f \circ p = g$. El mapeo inducido $f$ es continuo si y solo si $g$ es continuo; $f$ es un mapeo cociente si y solo si $g$ es un mapeo cociente. 
 
-### ![mapeo-cociente](/blog/assets/images/mapeo-cociente.png)
+### ![mapeo-cociente](/assets/images/mapeo-cociente.png)
 
 
 
@@ -65,11 +61,10 @@ b. Si $Z$ es Hausdorff, entonces $X^\ast$ es Hausdorff.
 
 
 
-
-
-
-
-### Bibliografía
+### Referencias
 
 - Munkres, ...
 - Dugundji...
+
+---
+
