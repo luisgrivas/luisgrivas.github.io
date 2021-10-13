@@ -1,7 +1,7 @@
 ---
 layout: page
-title: BIO
+title: Bio
 permalink: /bio/
 ---
 
-POR LLENAR.
+POR COMPLETAR.

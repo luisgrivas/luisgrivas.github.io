@@ -33,4 +33,4 @@ Además, durante el semestre agosto-diciembre 2019 organicé un taller de cienci
 
 ## Hobbies
 
-En mi tiempo libre me gusta jugar ajedrez... [completar]
+En mi tiempo libre me gusta jugar ajedrez (puedes retarme en [Lichess](https://lichess.org/@/lfgr)).
