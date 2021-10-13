@@ -13,12 +13,11 @@ layout: default
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>
-
       {%- if page.tags -%}
       •
       {% for tag in page.tags %}
       {% assign tag_slug = tag | slugify: "raw" %}
-      <a href="/tag/{{ tag_slug }}/">#{{ tag }}</a>
+      <a href="/tag/{{ tag_slug }}/">{{ tag }}</a>
       {% endfor %}
       {%- endif -%}
     </header>
