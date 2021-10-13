@@ -28,6 +28,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 header_pages:
   - blog.markdown
   - bio.markdown
+paginate: 8
 
 twitter_username: luisgrivas
 github_username:  luisgrivas
@@ -41,6 +42,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jemoji
+  - jekyll-paginate
 
 
 # Exclude from processing.
