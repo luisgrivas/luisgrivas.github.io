@@ -39,14 +39,6 @@ paginate: 6
 paginate_path: "/notas/page:num/"
 
 
-jekyll-archives:
-  enabled:
-    - tags
-  layouts:
-    tag: tag
-  permalinks:
-    tag: '/tag/:name/'
-
 # Build settings
 theme: minima
 plugins:
@@ -54,7 +46,6 @@ plugins:
   - jekyll-seo-tag
   - jemoji
   - jekyll-paginate
-  - jekyll-archives
 
 
 
