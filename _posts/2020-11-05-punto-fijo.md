@@ -2,7 +2,8 @@
 layout: post
 title:  "Problema de punto fijo 1"
 date:   2020-11-05 10:42:07 -0600
-categories: análisis-real punto-fijo
+categories: posts
+tags: análisis-real punto-fijo
 ---
 
 **Problema**. Sea $f: \mathbb{R} \rightarrow \mathbb{R} $ una función continua tal que $1$ aparece en  $f(x), f(f(x)), f(f(f(x))), \ldots $ para toda $x$ en $\mathbb{R}$. Demuestre que $ f(1) = 1$.
