@@ -3,7 +3,7 @@ layout: post
 title: "Topología Cociente"
 date: 2021-01-18 12:00:00
 categories: posts
-tags: topologia
+tags: topología
 ---
 
 **Definición**. Sean $X$ y $Y$ espacios topológicos; sea $p: X \rightarrow Y$ un mapeo sobreyectivo. El mapeo $p$ es un **mapeo cociente** si  $U \subset Y$ es abierto si y solo si $p^{-1}(U)$ es abierto en $X$. 

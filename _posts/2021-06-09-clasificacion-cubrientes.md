@@ -3,7 +3,7 @@ layout: post
 title: "Clasificación de espacios cubrientes"
 date: 2021-06-09 18:25:00
 categories: posts
-tags: topologia-algebraica
+tags: topología-algebraica topología
 ---
 
 Consideremos un espacio topológico $X$ y sea $E$ un espacio cubriente. Si $H = \pi_1(E, e)$ y $G = \pi_1(X, x)$ son los grupos fundamentales de $E$ y $X$ respectivamente, sabemos que el homomorfismo inducido por el mapeo cubriente $q_\ast: H \to G$ es inyectivo. Esto implica que $H$ es isomorfo a un subgrupo de $G$. Así pues, la siguiente pregunta surge de manera natural,

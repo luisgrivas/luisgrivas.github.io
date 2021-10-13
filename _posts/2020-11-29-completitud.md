@@ -3,7 +3,7 @@ layout: post
 title: "Todo espacio métrico se puede completar"
 date: 2020-11-29 15:24:00
 categories: posts
-tags: analisis
+tags: análisis-real
 ---
 
 

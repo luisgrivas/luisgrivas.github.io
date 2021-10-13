@@ -3,7 +3,7 @@ layout: post
 title: "Una función continua en todo R y diferenciable en ninguna parte"
 date: 2020-12-14 11:45:00
 categories: posts
-tags: analisis-real
+tags: análisis-real
 ---
 
 *La siguiente construcción aparece en el libro "Principles of Mathematical Analysis" de Walter Rudin.*

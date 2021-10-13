@@ -3,7 +3,7 @@ layout: post
 title: "Clasificación homotópica de mapeos en el toro"
 date: 2021-06-18 15:57:00
 categories: posts
-tags: homotopia, topología-algebraica
+tags: topología topología-algebraica toro
 ---
 
 En el libro *Introduction to Topological Manifolds* de John M. Lee aparece el siguiente problema.

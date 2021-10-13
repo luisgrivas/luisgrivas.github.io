@@ -3,7 +3,7 @@ layout: post
 title: "Teorema de Baire en espacios métricos"
 date: 2020-11-29 22:53:00
 categories: posts
-tags: analisis-real
+tags: análisis-real
 ---
 
 

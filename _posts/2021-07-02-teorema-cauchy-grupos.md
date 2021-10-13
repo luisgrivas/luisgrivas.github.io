@@ -3,7 +3,7 @@
 title: "Teorema de Cauchy para grupos"
 date: 2021-07-02 15:25:00
 categories: posts
-tags: teoria de grupos
+tags: grupos álgebra
 ---
 
 En estas notas se muestran tres demostraciones del teorema de Cauchy. En lo siguiente $\mid A \mid$ denotará al número de elementos de $A$.

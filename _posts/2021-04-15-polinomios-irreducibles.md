@@ -3,7 +3,7 @@ layout: post
 title: "Polinomios irreducibles sobre GF(p)"
 date: 2021-04-15 14:30:00
 categories: posts
-tags: algebra, galois, polinomios 
+tags: polinomios teoría-de-galois grupos 
 ---
 
 En este post demostraremos el siguiente teorema:
