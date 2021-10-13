@@ -1,5 +1,5 @@
 ---
 layout: blog
 title: Blog
-permalink: /notas2/
+permalink: /notas/
 ---
