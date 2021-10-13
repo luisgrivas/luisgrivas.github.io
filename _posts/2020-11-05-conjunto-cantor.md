@@ -118,12 +118,17 @@ $$
 
 A los conjuntos $C_\alpha$ se les conoce como **conjuntos de Cantor generalizados.**
 
-**DRAFT** 
+**TO DO** 
 
 - [ ] Demostrar cosas de funcion ternaria.
 - [ ] Correccion de demostracion ternaria
 
+---
 
+*Notas:*
 
 [^1]: Vea el siguiente [teorema](https://en.wikipedia.org/wiki/Cantor%27s_intersection_theorem).
 [^2]: Definamos $(y_n)_3$ como $y_n = a_n$ para toda $n < k$ y $y_n = 0$ para toda $n \geq k$. También definamos $(z_n)_3$ como $z_n = a_n$ para $n < k$ y $z_n = 2$ para toda $n \geq k$. Entonces $(y_n)_3 < (a_n)_3 < (z_n)_3$. Luego, $(a_n)_3$ es un número entre dos elementos del conjunto de Cantor que están a una distancia igual a $\frac{1}{3^{k-1}}$.
+
+---
+
