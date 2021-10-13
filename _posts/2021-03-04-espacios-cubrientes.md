@@ -3,7 +3,7 @@ layout: post
 title: "Espacios cubrientes"
 date: 2021-03-04 9:00:00
 categories: posts
-tags: [topologia, topologia-algebraica]
+tags: topología, topología-algebraica
 ---
 
 En lo siguiente, todos los espacios en cuestión son arco-conexos y [localmente arco-conexos](https://en.wikipedia.org/wiki/Locally_connected_space#Definitions_and_first_examples).
