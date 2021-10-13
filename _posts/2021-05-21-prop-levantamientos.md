@@ -3,7 +3,7 @@ layout: post
 title: "Propiedades de levantamientos"
 date: 2021-05-21 10:50:00
 categories: posts
-tags: topología-algebraica topología
+tags: topología-algebraica topología n-esfera toro
 ---
 
 La teoría de [espacios cubrientes](https://www.luisgrivas.com/blog/posts/2021/03/04/espacios-cubrientes.html) en conjunto con la teoría de levantamientos nos permite estudiar el grupo fundamental del espacio base. En estas notas veremos los principales teoremas de levantamientos y como consecuencia de estos daremos una primera aplicación: calcular el grupo fundamental de $\mathbb S^1$. 
