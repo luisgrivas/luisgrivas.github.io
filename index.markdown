@@ -5,7 +5,7 @@
 layout: home
 ---
 
-Mi nombre es Luis González Rivas, soy egresado de la [licenciatura en matemáticas](http://www.fcfm.uanl.mx/es/Matematicas) de la UANL. 
+Mi nombre es Luis González Rivas, soy egresado de la [licenciatura en matemáticas](http://www.fcfm.uanl.mx/es/Matematicas) de la UANL. Actualmente estoy inscrito en la maestría en matemáticas de la UNAM. Mi asesor es [Dr. Luis Montejano](https://www.matem.unam.mx/fsd/luis).
 
 
 ## ¿Qué hay de nuevo?
