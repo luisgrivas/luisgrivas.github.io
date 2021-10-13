@@ -10,7 +10,7 @@ La teoría de [espacios cubrientes](https://www.luisgrivas.com/blog/posts/2021/0
 
 **Definición.** Sean $q: E \rightarrow X$ un mapeo cubriente y $\phi: Y \rightarrow X$ un mapeo continuo. Un **levantamiento de** $\phi$ es un mapeo continuo $\widetilde \phi: Y \rightarrow E$ tal que $q \circ \widetilde \phi = \phi$. En otras palabras, el siguiente diagrama conmuta:
 
-![](/blog/assets/images/levantamiento.png)
+![](/assets/images/levantamiento.png)
 
 Intuitivamente hablando, un espacio cubriente es enrollado en el espacio base mediante el mapeo cubriente. Así pues, si tenemos un mapeo continuo sobre el espacio base, un levantamiento son las *instrucciones* de enrollamiento de este este mapeo.
 
