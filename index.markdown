@@ -3,9 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: ¡Hola!
 ---
-
-## ¡Hola!
 
 Mi nombre es Luis González Rivas, soy egresado de la [licenciatura en matemáticas](http://www.fcfm.uanl.mx/es/Matematicas) de la UANL. Actualmente estoy inscrito en la maestría en matemáticas de la UNAM. Mi asesor es [Dr. Luis Montejano](https://www.matem.unam.mx/fsd/luis). Actualmente estoy muy interesado en variedades de dimensiones bajas y su estudio mediante herramientas algebraicas.
 
