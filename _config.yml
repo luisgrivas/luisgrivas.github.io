@@ -47,6 +47,8 @@ plugins:
   - jekyll-seo-tag
   - jemoji
   - jekyll-paginate
+  - jekyll/tagging
+  - jekyll-tagging-related_posts
 
 
 
