@@ -1,5 +1,5 @@
 ---
 layout: blog
-title: Notas de Estudio
+title: Blog
 permalink: /notas/
 ---

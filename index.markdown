@@ -5,7 +5,11 @@
 layout: home
 ---
 
-Mi nombre es Luis González Rivas, soy egresado de la [licenciatura en matemáticas](http://www.fcfm.uanl.mx/es/Matematicas) de la UANL. Actualmente estoy inscrito en la maestría en matemáticas de la UNAM. Mi asesor es [Dr. Luis Montejano](https://www.matem.unam.mx/fsd/luis).
+## ¡Hola!
+
+Mi nombre es Luis González Rivas, soy egresado de la [licenciatura en matemáticas](http://www.fcfm.uanl.mx/es/Matematicas) de la UANL. Actualmente estoy inscrito en la maestría en matemáticas de la UNAM. Mi asesor es [Dr. Luis Montejano](https://www.matem.unam.mx/fsd/luis). Actualmente estoy muy interesado en variedades de dimensiones bajas y su estudio mediante herramientas algebraicas.
+
+Si quieres saber más de mi, puedes ver mi [CV](https://github.com/luisgrivas/cv/blob/master/luisgrivas-cv.pdf) o visitar esta [página]({% link bio.markdown %}).
 
 
 ## ¿Qué hay de nuevo?
@@ -26,7 +30,7 @@ Clases impartidas para las cerraras de matemáticas y física.
 * Análisis matemático II, semestre agosto-diciember 2020; FCFM-UANL.
 * Cálculo vectorial, semestre agosto-diciembre 2020; FCFM UANL.
 
-Además, durante el semestre agosto-diciembre 2019 organicé un curso de ciencia de datos con el grupo de teoría de la medida. 
+Además, durante el semestre agosto-diciembre 2019 organicé un taller de ciencia de datos con el grupo de teoría de la medida.
 
 ## Hobbies
 
