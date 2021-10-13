@@ -3,7 +3,7 @@ layout: post
 title: "Cubriente Universal"
 date: 2021-06-08 12:00:00
 categories: posts
-tags: topologia-algebraica
+tags: topología-algebraica
 ---
 
 Recordemos el [teorema de inyectividad](https://www.luisgrivas.com/blog/posts/2021/05/21/prop-levantamientos.html) de espacios cubrientes. 
