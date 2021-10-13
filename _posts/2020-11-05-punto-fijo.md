@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Problema de Punto fijo 1"
+title:  "Problema de punto fijo 1"
 date:   2020-11-05 10:42:07 -0600
 categories: análisis-real punto-fijo
 ---
@@ -17,4 +17,4 @@ El argumento central de la demostración se basa en la siguiente observación. S
 
 Nota: En la demostración $ f^{(k)}$ denota la composición de la función $f$ en sí misma $k$ veces.
 
-**DRAFT**
+---
