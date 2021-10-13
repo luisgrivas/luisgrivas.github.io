@@ -60,6 +60,7 @@ El siguiente teorema nos indica cómo construir un mapeo cociente a partir de un
 El Teorema 3 nos permite hablar **del número de hojas** de un mapeo cubriente. El mapeo cubriente $p_n$ del Ejemplo 2 tiene $n$ hojas, pues todo número complejo tiene $n$ raíces complejas. En cambio, si $p$ es el mapeo cubriente del Ejemplo 3, este siempre tiene dos hojas: $p$ identifica puntos antipodales en $\mathbb S^n.$
 
 ---
+*Notas:*
 
 [^1]: Esta es una equivalencia conocida. Véase por ejemplo el libro Topology, James Dugundji, Teorema 12.2.
 
