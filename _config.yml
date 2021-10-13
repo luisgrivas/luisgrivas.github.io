@@ -39,11 +39,6 @@ google_analytics: G-1JYNVC4MNX
 paginate: 6
 paginate_path: "/notas/page:num/"
 
-related_by: tags categories
-related_limit: 6
-related_categories: 1
-related_tags: 1
-
 
 # Build settings
 theme: minima
