@@ -16,7 +16,7 @@ Si quieres saber más de mi, puedes ver mi [CV](https://github.com/luisgrivas/cv
 ## ¿Qué hay de nuevo?
 Este semestre tomaré las cursos de topología diferencial, grupos de Lie y representaciones y análisis complejo. Creo que las tres materias se complementan bastante bien, especialmente por su contenido geométrico. Estaré escribiendo sobre los cursos en mi [blog]({% link blog.markdown %})
 
-Por otro lado, este semestre estaré trabajando con el [Dr. Igor Barahona](https://www.matem.unam.mx/fsd/igor) en un proyecto de análisis semántico de un corpus creado a partir de entrevistas de personas que padecieron COVID 19.
+Por otro lado, durante este año estaré trabajando con el [Dr. Igor Barahona](https://www.matem.unam.mx/fsd/igor) en un proyecto de análisis semántico de un corpus creado a partir de entrevistas de personas que padecieron COVID 19.
 
 Mi última publicación en mi blog: {% for post in site.posts limit:1 %}  <a href="{{post.url | relative_url }}">{{ post.title | escape }}</a> {% endfor %}
 
