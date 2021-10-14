@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Teorema Fundamental del Álgebra"
+date: 2021-06-07 17:09:00
+categories: posts
+tags: teoria-de-galois
+---
+
+En estas notas se demuestra el Teorema Fundamental del Álgebra utilizando tres herramientas distintas. La primera dispone de elementos puramente algebraicos; la segunda, de resultados de homotopía; la última, mediante métodos analíticos.
+
+**Teorema Fundamental del Álgebra.** Todo polinomio no constante $f(x) \in \mathbb C[x]$ tiene una raíz compleja.
+
+ Antes de enunciar la primera demostración, veamos lo siguiente. Sea $f(x) = \sum_i^n a_i x^i \in \mathbb C[x]$. Denotemos por $\bar f(x) = \sum_i^n \bar{a_i}x^i$, donde $\bar a_i$ es el conjugado de $a_i$. Observe que el producto $f \cdot \bar f $ es un polinomio en $\mathbb R[x]$, ya que si $f \cdot \bar f (x) = \sum_{i}^k c_i x^i$, con $c_i = \sum_{r + s = i} a_r \bar a_s$, entonces $\bar c_i = \sum_{r+s = i}^n \bar a_r a_s = \sum_{s+r=i} a_s \bar a_r = c_i$. Como $c_i = \bar c_i$, se tiene que $c_i \in \mathbb R$. 
+
+Afirmamos que si $z_0$ es una raíz de $f \cdot \bar f$, entonces $z_0$ o $\bar z_0$ es una raíz de $f$.  Para esto, si $z_0$ es una raíz del polinomio $f \cdot \bar f$, entonces $f(z_0) = 0$ o $\bar f(z_0) = 0$. Si $z_0$ es raíz de $\bar f$, entonces $\bar z_0$ es raíz del polinomio $f$. Lo anterior muestra que es suficiente demostrar que todo polinomio no constante en $\mathbb R[x]$ tiene una raíz en $\mathbb C$.
+
+*Demotración 1:*
+
+*Demostración 2:*
+
+*Demostración 3:*
+
