@@ -34,7 +34,7 @@ twitter_username: luisgrivas
 github_username:  luisgrivas
 instagram_username: luisgrivas_
 
-google_analytics: G-1JYNVC4MNX
+google_analytics: GTM-MRJPNKD #G-1JYNVC4MNX
 
 paginate: 6
 paginate_path: "/notas/page:num/"
