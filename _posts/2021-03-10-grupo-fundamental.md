@@ -3,7 +3,7 @@ layout: post
 title: "El grupo fundamental"
 date: 2021-03-10 11:00:00
 categories: posts
-tags: topologia, topologia-algebraica
+tags: topologia topologia-algebraica
 ---
 
 
