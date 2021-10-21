@@ -3,7 +3,7 @@ layout: post
 title: "Teorema Fundamental del Álgebra"
 date: 2021-10-20 17:09:00
 categories: posts
-tags: teoria-de-galois
+tags: teoria-de-galois algebra
 ---
 
 El Teorema Fundamental del Álgebra (en adelante TFA) afirma que todo polinomio con coeficientes en los complejos tiene una raíz compleja. Este importante resultado normalmente se demuestra en un primer curso de análisis complejo utilizando el [teorema de Liouville](https://en.wikipedia.org/wiki/Liouville%27s_theorem_(complex_analysis)). No obstante, aunque esta demostración es sastisfactoria desde el punto de vista analítico, se debería poder demostrar el TFA utilizando únicamente herramientas algebraicas.
