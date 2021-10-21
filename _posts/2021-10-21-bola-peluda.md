@@ -6,7 +6,7 @@ categories: posts
 tags: topología-algebraica homología n-esfera
 ---
 
-En estas notas demostramos el siguiente resultado clásico de la topología algebraica también conocido como el *"teorema de la bola peluda"*. 
+En estas notas demostramos el siguiente resultado clásico de la topología algebraica conocido como el *"teorema de la bola peluda"*. 
 
 **Teorema.** Existe un campo vectorial en $S^n$ que no se anula en ningún punto si y solo si $n$ es impar.
 
