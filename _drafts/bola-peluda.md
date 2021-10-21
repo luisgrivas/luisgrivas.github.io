@@ -45,9 +45,9 @@ Consecuentemente, dado que $\pi_1(S^1, 1) \cong \mathbb Z$, se tiene que $H_1(S^
 
 El siguiente teorema nos permite calcular grupos de homología de un espacio $X$ mediante el cálculo de grupos de homología de subconjuntos abiertos de $X$. Claro, esta reducción es útil si calcular los grupos de homología de estos abiertos es una tarea más sencilla que calcular los grupos de homología de $X$. Veremos que este es el caso para las n-esferas.
 
-**Teorema 2 (Mayer-Vietoris).** Sea $X$ un espacio topológico y sean $U, V$ subconjuntos abiertos de $X$ cuya unión es $X$. Entonces, para cada $p$  existe un homomorfismo $\partial_\ast: H_p(X) \rightarrow H_{p-1}(U \cap V)$ tal que la siguiente sucesión es [exacta]():
+**Teorema 2 (Mayer-Vietoris).** Sea $X$ un espacio topológico y sean $U, V$ subconjuntos abiertos de $X$ cuya unión es $X$. Entonces, para cada $p$  existe un homomorfismo $\partial_\ast: H_p(X) \rightarrow H_{p-1}(U \cap V)$ tal que la siguiente sucesión es [exacta](https://en.wikipedia.org/wiki/Exact_sequence):
 
-![](../assets/images/mayer-vietoris.png)
+![](/assets/images/mayer-vietoris.png)
 
 
 
