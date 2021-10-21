@@ -117,7 +117,7 @@ Cabe mencionar que la maquinaria desarrollada hasta ahora nos permite demostrar 
 [1] Lee, J. (2010). *Introduction to Topological Manifolds*. Springer New York.
 
 [^1]: Ver por ejemplo [Propiedades de levantamientos]({% post_url 2021-05-21-prop-levantamientos %})
-[^2]:  Ver también las notas [*Clasificación homotópica de mapeos en el toro*]({%post_url %}). ↩
+[^2]:  Ver también las notas [*Clasificación homotópica de mapeos en el toro*]({%post_url 2021-06-18-homotopia-toro %}). 
 
 ---
 
