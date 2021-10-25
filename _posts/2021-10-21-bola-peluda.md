@@ -22,12 +22,12 @@ Sea $X$ un espacio topológico. Denotemos por $C_p(X)$ al **grupo** **singular d
 
 ![](https://upload.wikimedia.org/wikipedia/commons/d/d1/Simplicial_homology_-_exactness_of_boundary_maps.svg)
 
-El conjunto $Z_p = \ker \partial$ se le conoce como el **grupo de p-ciclos**, mientras que al conjunto $B_p = \Im \partial$ se le conoce como el **grupo de (p+1)-fronteras.** Debido a la identidad $\partial(\partial c) = 0$  :exclamation: , el grupo $B_p(X)$ es un subgrupo de $Z_p(X)$.  Consecuentemente,  el **p-ésimo grupo de homología**, denotado como $H_p(X)$, se define como el cociente de $H_p(X) = Z_p(X) / B_p(X) = \ker \partial_p / \Im \partial_{p+1}$.
+El conjunto $Z_p = \ker \partial$ se le conoce como el **grupo de p-ciclos**, mientras que al conjunto $B_p = Im \partial$ se le conoce como el **grupo de (p+1)-fronteras.** Debido a la identidad $\partial(\partial c) = 0$  :exclamation: , el grupo $B_p(X)$ es un subgrupo de $Z_p(X)$.  Consecuentemente,  el **p-ésimo grupo de homología**, denotado como $H_p(X)$, se define como el cociente de $H_p(X) = Z_p(X) / B_p(X) $.
 
 Si $f: X \rightarrow Y$ es un mapeo continuo entre espacios topológicos, entonces $f$ induce un homomorfismo de grupos $f_\ast: H_p(X) \rightarrow H_p(Y)$ que satisface las siguientes propiedades functoriales:
 
 1. Si $f: X \rightarrow X$ es la identidad, entonces $f_\ast: H_p(X) \rightarrow H_p(X)$ es el homomorfismo identidad. 
-2. Si $f: X \rightarrow Y $ y $g: Y \rightarrow Z$ son mapeos continuos entre espacios topológicos, entonces $(g \circ f)_\ast = g_\ast \circ f_\ast: H_p(X) \rightarrow H_p(Z)$.
+2. Si $f: X \rightarrow Y $ y $g: Y \rightarrow Z$ son mapeos continuos entre espacios topológicos, entonces $ (g \circ f) \ast = g_\ast \circ f_\ast: H_p(X) \rightarrow H_p(Z)$.
 
 Como consecuencia inmediata de lo anterior, se deduce que si $f: X \rightarrow Y$ es un homeomorfismo, entonces $f_\ast: H_p(X) \rightarrow H_p(Y)$ es un isomorfismo de grupos. Por otro lado, si $A \subset X$ es un retracto de $X$, entonces para toda $p$, el homomorfismo $H_p(A) \rightarrow H_p(X)$ inducido por la inclusión es inyectivo.
 
