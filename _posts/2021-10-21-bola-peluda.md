@@ -94,7 +94,7 @@ Si $Id_{S^n}: S^n \rightarrow S^n$ es el mapeo identidad, entonces su grado es i
 
 Un **campo vectorial** en $S^n$ es un mapeo continuo $S^n \rightarrow \mathbb R^{n+1}$ tal que para toda $x \in S^n$, $V(x)$ es tangente a $S^n$ en $x$. Esto es, $V(x) \cdot x = 0$ para toda $x \in S^n$. 
 
-Con lo anterior, estamos listos para demostrar el *teoerma de la bola peluda* que enuciaremos de nuevo como recordatorio.
+Con lo anterior, estamos listos para demostrar el *teorema de la bola peluda* que enuciaremos de nuevo como recordatorio.
 
 **Teorema.** Existe un campo vectorial en $S^n$ que no se anula en ningún punto si y solo si $n$ es impar.
 
