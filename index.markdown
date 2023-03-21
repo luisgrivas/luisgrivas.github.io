@@ -22,18 +22,6 @@ Por otro lado, estaré trabajando en la competencia de Ubiquant publicada en [Ka
 Mi última publicación en mi blog: {% for post in site.posts limit:1 %}  <a href="{{post.url | relative_url }}">{{ post.title | escape }}</a> {% endfor %}
 
 
-## Clases
-
-Clases impartidas para las cerraras de matemáticas y física.
-
-* Álgebra abstracta I (Teoría de grupos), semestre enero-junio 2018; FCFM-UANL.
-* Álgebra abstracta II (Teoría de anillos y campos), semestre agosto-diciembre 2019; FCFM-UANL.
-* Teoría de la medida, semestre agosto-diciembre 2019; FCFM-UANL.
-* Análisis matemático II, semestre agosto-diciember 2020; FCFM-UANL.
-* Cálculo vectorial, semestre agosto-diciembre 2020; FCFM UANL.
-
-Además, durante el semestre agosto-diciembre 2019 organicé un taller de ciencia de datos con el grupo de teoría de la medida.
-
 ## Hobbies
 
 En mi tiempo libre me gusta jugar ajedrez (puedes retarme en [Lichess](https://lichess.org/@/lfgr)).
