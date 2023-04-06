@@ -24,14 +24,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   Estudiante de posgrado en matemáticas, interesado en topología algebraica, ciencias computacionales
   y finanzas. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://luisgrivas.com" # the base hostname & protocol for your site, e.g. http://example.com
 header_pages:
   - blog.markdown
+  - proyectos.markdown
 
 twitter_username: luisgrivas
 github_username:  luisgrivas
 instagram_username: luisgrivas_
-
 google_analytics: G-JPY465M250
 
 paginate: 6

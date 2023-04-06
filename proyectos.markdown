@@ -4,4 +4,6 @@ title: Proyectos
 permalink: /proyectos/
 ---
 
-POR COMPLETAR
+* Leetcode problems
+
+* Dugundji
