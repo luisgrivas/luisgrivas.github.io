@@ -4,8 +4,10 @@ title: Proyectos
 permalink: /proyectos/
 ---
 
-* Leetcode problems
-> Solutions written in C++ and Python of Leetcode problems.
+* **Leetcode problems**
 
-* Dugundji
-> Solutions for Dugundji's Topology.
+_Solutions written in C++ and Python of Leetcode problems._
+
+* **Dugundji**
+
+_Solutions for James Dugundji's Topology._
