@@ -4,7 +4,7 @@ title: Proyectos
 permalink: /proyectos/
 ---
 
-* **Leetcode problems**
+* [Leetcode problems](https://github.com/luisgrivas/leetcode)
 
 _Solutions written in C++ and Python of Leetcode problems._
 
