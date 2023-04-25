@@ -4,10 +4,10 @@ title: Proyectos
 permalink: /proyectos/
 ---
 
-* [Leetcode problems](https://github.com/luisgrivas/leetcode)
+* [Leetcode](https://github.com/luisgrivas/leetcode)
 
-_Solutions written in C++ and Python of Leetcode problems._
+_Soluciones a problemas de Leetcode escritos en Python y C++. (en progreso)_
 
 * **Dugundji**
 
-_Solutions for James Dugundji's Topology._
+_Soluciones de problemas del libro "Topology" de James Dugundji. (en progreso)_
