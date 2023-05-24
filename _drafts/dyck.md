@@ -10,7 +10,7 @@ tags: leetcode
 
 > Dados $n$ pares de paréntesis, escribe una función que genere todas las posibles combinaciones de paréntesis balanceados.
 
-Aunque este problema está considerado como nivel medio en LeetCode, tuve dificultad para contrar una solución _elegante_. Claro, una solución ingenua (e ineficiente) consiste en calcular todos los strings posibles de longitud $2n$ con los caracteres ```(``` y ```)``` y conservar solo los que estén balanceados. Pero, ¿que quiere decir balanceados?, dado un string ¿cómo sabemos que este está balanceado?
+Aunque este problema está considerado como nivel medio en LeetCode, tuve dificultad para contrar una solución _elegante_. Claro, una solución ingenua (e ineficiente) consiste en calcular todos los strings posibles de longitud $2n$ con los caracteres ```(``` y ```)``` y conservar solo los que estén balanceados. Pero, ¿que quiere decir que un string de paréntesis esté balanceado?
 
 ## Paréntesis Balanceados
 
