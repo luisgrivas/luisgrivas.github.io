@@ -6,19 +6,19 @@ categories: posts
 tags: leetcode
 ---
 
-Últimamente me he estado divirtiendo [resolviendo](https://github.com/luisgrivas/leetcode) problemas de LeetCode. Aunque en su mayoría los problemas son interesantes, una vez que los resuelvo no suelo pensar más en ellos. Sin embargo, el siguiente [problema](https://leetcode.com/problems/generate-parentheses/description/) captó particularmente mi atención:
+Últimamente he estado [resolviendo](https://github.com/luisgrivas/leetcode) problemas de programación en [LeetCode](https://leetcode.com). Durante una de estas jornadas el siguiente [problema](https://leetcode.com/problems/generate-parentheses/description/) captó mi atención.
 
 > Dados $n$ pares de paréntesis, escribe una función que genere todas las posibles combinaciones de paréntesis balanceados.
 
-Aunque este problema está considerado como nivel medio en LeetCode, tuve dificultad para contrar una solución _elegante_. Claro, una solución ingenua (e ineficiente) consiste en calcular todos los strings posibles de longitud $2n$ con los caracteres ```(``` y ```)``` y conservar solo los que estén balanceados. Pero, ¿que quiere decir que un string de paréntesis esté balanceado?
+Aunque este problema es considerado de nivel medio en LeetCode, tuve dificultad para contrar una solución _elegante_. Una posible solución (ineficiente) consiste en calcular todos los strings posibles de longitud $2n$ con los caracteres ```(``` y ```)``` y conservar solo los que estén balanceados. Pero ¿que quiere decir que un string de paréntesis esté balanceado?
 
 ## Paréntesis Balanceados
 
-Para poder dar con una definición, demos unos pasos atrás y veamos cómo obtenemos paréntesis balanceados. Por ejemplo, considere la siguiente expresión: 
+Para poder obtener con una definición, demos unos pasos atrás y veamos cómo obtenemos paréntesis balanceados. Por ejemplo, considere la siguiente expresión: 
 
 $$(3 \cdot (1 + 2)) \cdot ((3 - 1) / (2 + 2)) / (4 + 3).$$
 
-Para calcular el resultado de esta expresión el uso de los paréntesis es fundamental. Si en esta expresión borramos todos los caracteres menos los paréntesis obtenemos el string ```(())(()())()```. Entonces, podemos decir que que un string de paréntesis está balanceado si se obtuvo de una expresión aritmética como la anterior conservando solo los paréntesis. 
+Si en esta expresión borramos todos los caracteres menos los paréntesis obtenemos el string ```(())(()())()```. Entonces, podemos decir que que un string de paréntesis está balanceado si se obtuvo de una expresión aritmética como la anterior conservando solo los paréntesis. 
 
 ¿Cuáles son las reglas para utilizar paréntesis? Sabemos que siempre que abramos un paréntesis debemos cerrarlo. Ejemplos de esto serían los strings  ```(())``` y ```()()```. Además, debemos exigir que el número de paréntesis izquierdos sea el mismo que el número de paréntesis derechos, pues de lo contrario tendríamos ejemplos como ```)()()```. Así pues, podemos valernos de la siguiente definición.
 
@@ -26,7 +26,7 @@ Un string de paréntesis está balanceado si:
 1. A cada paréntesis izquierdo ```(``` le corresponde uno y solo un paréntesis derecho ```)``` _posterior_;
 2. el número de paréntesis izquierdos y derechos en el string es igual.
 
-Con esto, el algoritmo para verificar _buen balanceo_ de paréntesis es sencillo: 
+Con esto, el algoritmo para verificar _balanceo_ de paréntesis es sencillo: 
 
 ```python3
 def isValid(self, s: str) -> bool:
@@ -46,8 +46,6 @@ Recorriendo el string de izquierda a derecha: si el caracter es ```(``` lo guard
 
  ## Lenguaje de Dyck
 
- ![Palabras de Dyck con 4 pares de paréntesis. Autor: Timan Piesk](https://upload.wikimedia.org/wikipedia/commons/0/01/Dyck_lattice_D4.svg)
-
 La definición anterior nos permite dar una solución por [fuerza bruta](https://en.wikipedia.org/wiki/Brute-force_search) mencionada al inicio de estas notas. Pero si observamos detalladamente lo hecho hasta ahora, veremos que ya tenemos lo necesario para encontrar una solución más inteligente.
 
 Sea $\Sigma $ el conjunto de cuyos únicos elementos son los caracteres ```(``` y ```)```. Para nosotros, la [cerradura de Kleene](https://en.wikipedia.org/wiki/Kleene_star) $\Sigma^\ast$  de $\Sigma$ será el conjunto de todas los strings _finitos_ con caracteres en $\Sigma$. Para todo elemento $s\in \Sigma^\ast$ denote por $lp(s)$ y $rp(s)$ al número de paréntesis izquierdos y derechos contenidos en $s$ respectivamente.
@@ -58,7 +56,7 @@ $$B = \{s \in \Sigma^\ast: \text{ todo prefijo } s^\prime \text{ de } s \text{ s
 
 En matemáticas, al conjunto anterior se le conococe como [lenguaje de Dyck](https://en.wikipedia.org/wiki/Dyck_language) y a sus elementos se les conoce como *palabras de Dyck*. Este conjunto tiene diversas propiedades interesantes que discutiremos más adelante. 
 
-Es natural preguntarse, ¿para qué tanta teoría? Bueno, la definición anterior nos ayuda a pensar de major manera sobre el problema. Precisamente, la definición de $B$ nos permite pensar a los strings de paréntesis balanceados en término de sus prefijos. 
+Es natural preguntarse, ¿para qué tanta teoría? Bueno, la definición anterior nos ayuda a pensar mejor sobre el problema. Precisamente, la definición de $B$ nos permite pensar a los strings de paréntesis balanceados en término de sus prefijos. 
 
 Así pues, para un natural $n$ dado, la complejidad del problema se reduce a calcular iterativamente los strings $t\in \Sigma^\ast$ que satisfagan $rp(t) \leq lp(t) \leq n$. Observe que este es un procedimiento relativamente sencillo. Si $rp(t) = lp(t) = n$, entonces $t$ es un string de paréntesis balanceados de tamaño $2n$. Si $rp(t) < lp(t)$, entonces podemos definir el string ```t_0 = t + )```; si $lp(t) < n$, entonces podemos definir el string ```t_1 = t + (```. Sustituimos al string $t$ por los strings $t_0$ y $t_1$ (en caso de existir) y procedemos iterativamente. Por ejemplo, para el caso $n = 2$ el procedimiento lo podemos ver en el siguiente diagrama:
 
@@ -90,7 +88,7 @@ def generateParenthesis(self, n: int) -> List[str]:
     return dyck
 ```
 
-## Números de Narayana y Números de Catalan
+## Números de Catalan
 
 Definamos para $n \in \mathbb{N}$, el resultado del algoritmo ```generateParenthesis``` para el input $n$. En términos precisos
 
@@ -98,21 +96,54 @@ $$ B_n = \{ s \in B: \lvert s \rvert = 2n \}.$$
 
 Es natural preguntarse, ¿existirá alguna fórmula que nos permita calcular $\lvert B_n \rvert$? En otras palabras, ¿podemos determinar una fórmula para el número de strings de paréntesis balanceados de longitud $2n$? En esta sección daremos una respuesta a esta pregunta. 
 
-En primer lugar, pensemos en una pregunta relacionada. Para $n, k \in \mathbb{N}$, denotemos por $N(n, k)$ al número de elementos de $B_n$ en los que el string ```()``` aparezca exactamente $k$ veces como [substring](https://en.wikipedia.org/wiki/Substring). Por ejemplo, $N(3,2) = 3$ ya que
+Primero definamos $\sigma: \Sigma \rightarrow \{-1, 1\},$ como la función
+
+$$
+\sigma(s) =  \cases{1 \ \ \ \text{ si } s = (;\\ 
+-1  \ \ \ \text{ si } s = )}.
+$$
+
+
+Note que, si $w_1 w_2 \ldots w_n$ es una palabra en $\Sigma^\ast$  
+
+
+<!---
+Veamos primero algunos conceptos relacionados con la pregunta anterior. Para $n, k \in \mathbb{N}$, denotemos por $N(n, k)$ al número de elementos de $B_n$ en los que el string ```()``` aparezca exactamente $k$ veces como [substring](https://en.wikipedia.org/wiki/Substring). Por ejemplo, $N(3,2) = 3$ ya que
 
 ```
 (()())   (())()   ()(())    
 ```
 
-son los únicos strings en $B_3$ en los que ```()``` aparece dos veces como substring. A los números $N(n, k)$ se les conoce como [números de Nayarana](https://en.wikipedia.org/wiki/Narayana_number). Estos satisfacen los siguientes teoremas.
+son los únicos strings en $B_3$ en los que ```()``` aparece **dos veces** como substring. A los números $N(n, k)$ se les conoce como [números de Nayarana](https://en.wikipedia.org/wiki/Narayana_number).
+
+
+Con esto en mente, tratemos de determinar una fórmula para $N(n, k)$. En primer lugar, es claro que $N(n, 1) = 1$ y que $N(n, n) = 1$. Vea, por ejemplo,  que para el caso $n=3$ se tienen únicamente los siguientes strings:
+
+```
+((()))    ()()()
+```
+
+
 
 **Teorema.** Se tiene que 
 $$N(n, k) = \frac{1}{n} {n \choose k } \cdot { n \choose k-1}$$
 
-**Teorema**. Los números de Nayarana satisfacen la siguiente relación
-$$N(n, k) = N(n, n - k + 1).$$
 
 **Teorema**. Se tiene que 
 
 $$C_n = \sum_{k=1}^n N(n, k),$$
 donde $C_n$ es el n-ésimo número de Catalan.
+_Demostración_: Recuerde que el n-ésimo número de Catalan esta dado por la ecuación $C_n = \frac{1}{n+1}{2n \choose n}$. Por tanto, demostrar el teorema es demostrar que
+
+$$\sum_{k=1}^n N(n, k) = \frac{1}{n+1}{2n \choose n}.$$
+
+Note que por el Teorema (tal), el lado izquierdo de la ecuación es igual a 
+
+$$
+\begin{eqnarray}
+ \sum_{k=1}^n N(n, k) &=& \sum_{k=1}^n  \frac{1}{n} {n \choose k } \cdot { n \choose k-1} \\
+ &=& \sum_{k=1}^n 
+\end{eqnarray}
+$$
+--->
+
