@@ -10,4 +10,4 @@ Mi nombre es Luis González Rivas, soy egresado de la licenciatura en matemátic
 
 Estoy muy interesado en variedades de dimensiones bajas y su estudio mediante herramientas algebraicas. Anteriormente, trabajé en proyectos de machine learning aplicados a la industria: sistemas de recomendación, segmentación de clientes, pricing de productos, entre otros.
 
-Mi última publicación en mi blog: {% for post in site.posts limit:1 %}  <a href="{{post.url | relative_url }}">{{ post.title | escape }}</a> {% endfor %}
+Mi última publicación: {% for post in site.posts limit:1 %}  <a href="{{post.url | relative_url }}">{{ post.title | escape }}</a> {% endfor %}
