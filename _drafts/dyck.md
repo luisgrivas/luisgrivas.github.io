@@ -28,7 +28,7 @@ Un string de paréntesis está balanceado si:
 
 Con esto, el algoritmo para verificar _balanceo_ de paréntesis es sencillo: 
 
-```python3
+```python
 def isValid(self, s: str) -> bool:
 	parentheses = {"(": ")"}
 	tmp  = []
