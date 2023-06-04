@@ -23,7 +23,7 @@ layout: default
       •
       {% for tag in page.tags %}
       {% capture tag_name %}{{ tag }}{% endcapture %}
-      <a href="/tag/{{ tag_name }}">{{ tag_name }}</a>
+      <a href="/tag/{{ tag_name }}">#{{ tag_name }}</a>
       {% endfor %}
       {%- endif -%}
     </p>
