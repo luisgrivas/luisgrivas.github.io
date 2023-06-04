@@ -6,6 +6,9 @@ layout: default
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
+
+  {{ content }}
+
   {% assign months = "Enero|Febrero|Marzo|Abril|Mayo|Junio|Julio|Agosto|Septiembre|Octubre|Noviembre|Diciembre" | split: "|" %}
 
   {%- if site.posts.size > 0 -%}
@@ -18,11 +21,11 @@ layout: default
         {% assign year = post.date | date: "%Y" %}
 
         <span class="post-meta">{{ month }} {{ day }}, {{ year }}</span>
-        <h4>
+        <p>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-        </h4>
+        </p>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
