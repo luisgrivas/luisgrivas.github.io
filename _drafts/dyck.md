@@ -104,7 +104,7 @@ $$
 $$
 
 
-Note que, si $w_1 w_2 \ldots w_n$ es una palabra en $\Sigma^\ast$  
+Note que si $w_1 w_2 \ldots w_n$ es una palabra en $\Sigma^\ast$  
 
 
 <!---
