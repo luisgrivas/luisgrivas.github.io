@@ -3,9 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: ¡Hola!
 ---
-
-## Hola
 
 Mi nombre es Luis Felipe, soy originario de [Monterrey, México](https://goo.gl/maps/i8RqWkuuvg3iry396). Estudié **matemáticas** en la universidad y realicé estudios de posgrado primero en **inteligencia artificial** y después en matemáticas en el área de **combinatoria y convexidad**. Actualmente trabajo como **científico de datos**. 
 
