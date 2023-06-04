@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Proyectos
+short_title: Proyectos
 permalink: /proyectos/
+title: Proyectos
 ---
 
 ### [Leetcode](https://github.com/luisgrivas/leetcode)
-
-_Soluciones a problemas de Leetcode escritos en Python y C++._
+Soluciones a problemas de Leetcode escritos en Python y C++.
