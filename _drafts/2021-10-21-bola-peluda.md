@@ -1,14 +1,21 @@
 ---
 layout: post
-title: "Teorema de la bola peluda"
+title: "¿Por qué existen los huracanes?"
 date: 2021-10-20 20:10:00
 categories: posts
 tags: topología-algebraica homología n-esfera
 ---
 
-En estas notas demostramos el siguiente resultado clásico de la topología algebraica conocido como el *"teorema de la bola peluda"*. 
+Este post no trata sobre climatología ni meteorología. No, en este post hablaremos sobre uno de los teoremas más bonitos y más profundos de la matemática: El Teorema de la Bola Peluda. 
+
+¿Por qué este teorema tiene este nombre tan peculiar? Bueno, en primer lugar, este problema trata sobre esferas. Pero esferas en cualquier dimensión: uno, dos, cuatro mil trescientos o la que sea. En segundo lugar, se trata sobre el comportamiento de campos vectoriales sobre estas esferas. La _bola peluda_ es solo un caso particular de este teorema, siendo "bola", una esfera de dimensión dos, y los "pelos" un campo de vectores sobre esta. La  
 
 **Teorema.** Existe un campo vectorial en $S^n$ que no se anula en ningún punto si y solo si $n$ es impar.
+
+Desmenucemos los conceptos de este teorema. En primer lugar, formalmente la esfera 
+
+
+
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Hairy_ball_one_pole.jpg" style="zoom:15%;" />
 
