@@ -1,2 +1,2 @@
 # luisgrivas.github.io
-personal webpage
+personal website
