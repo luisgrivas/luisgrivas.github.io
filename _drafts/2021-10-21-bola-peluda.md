@@ -6,15 +6,26 @@ categories: posts
 tags: topología-algebraica homología n-esfera
 ---
 
-Este post no trata sobre climatología ni meteorología. No, en este post hablaremos sobre uno de los teoremas más bonitos y más profundos de la matemática: El Teorema de la Bola Peluda. 
+Este post no trata sobre climatología ni meteorología. No, este post trata sobre uno de los teoremas más bonitos y más profundos de la matemática: El Teorema de la Bola Peluda (TBP en adelante). 
 
-¿Por qué este teorema tiene este nombre tan peculiar? Bueno, en primer lugar, este problema trata sobre esferas. Pero esferas en cualquier dimensión: uno, dos, cuatro mil trescientos o la que sea. En segundo lugar, se trata sobre el comportamiento de campos vectoriales sobre estas esferas. La _bola peluda_ es solo un caso particular de este teorema, siendo "bola", una esfera de dimensión dos, y los "pelos" un campo de vectores sobre esta. La  
+¿Por qué este teorema tiene un nombre tan peculiar? Bueno, en primer lugar, este problema trata sobre esferas. Pero esferas en cualquier dimensión: uno, dos, cuatro mil trescientos o la que sea. En segundo lugar, se trata sobre el comportamiento de campos vectoriales sobre estas esferas. La _bola peluda_ es solo un caso particular de este teorema, siendo "bola", una esfera de dimensión dos, y los "pelos" un campo de vectores sobre esta. La  
 
-**Teorema.** Existe un campo vectorial en $S^n$ que no se anula en ningún punto si y solo si $n$ es impar.
+> **Teorema.** Existe un campo vectorial en $S^n$ que no se anula en ningún punto si y solo si $n$ es impar.
 
-Desmenucemos los conceptos de este teorema. En primer lugar, formalmente la esfera 
+Desmenucemos los conceptos de este teorema. En primer lugar, formalmente la n-esfera $S^n$ se define, para todo entero no negativo $n$, como
+
+$$S^n = \{x \in \mathbb{R}^{n+1}: \lvert x \rvert = 1 \}. $$
+
+Es decir, son los puntos en $\mathbb{R}^{n+1} $ que se encuentran a una distancia igual a 1 respecto al origen. Consideremos, para clarificar lo anterior, el caso $n = 0$. En este caso, la 0-esfera es el conjunto $\{-1, 1\}$, pues estos son los únicos puntos en $\mathbb{R}$ que están a una distancia unitaria respecto al origen. De manera similar, se deduce la 1-esfera es el círculo unitario en el plano, tal y como se aprecia en la siguiente figura.
+
+[FIGURA DEL CIRCULO UNITARIO.]
+
+El caso $n=2$ es la bola en cuestión. La 2-esfera son los puntos en el espacio de tres dimensiones que se encuentran a una distancia unitaria respecto el origen. Procedamos ahora con el siguiente concepto. Un campo vectorial sobre la n-esfera es un mapeo continuo $V: S^n \rightarrow \mathbb{R}^{n+1}$. Intuitivamente, podemos imaginar que a cada punto de la n-esfera le asignamos una flecha, teniendo cuidado con que esta asignación sea continua. Un campo vectorial que no se anula, es simplemente aquel que su valor nunca es cero. De nuevo, uno puede imaginarse que el vector cero es una flecha que no tiene longitud ni apunta a ningún lado (¿qué?).
+
+Entonces, ¿que nos dice el TBP? Este teorema es un teorema de existencia: podemos encontrar  
 
 
+Recordemos, y esto será relevante después, que en topología, todo espacio es equivalente a la n-esfera si encontramos un homemoorfi
 
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Hairy_ball_one_pole.jpg" style="zoom:15%;" />
