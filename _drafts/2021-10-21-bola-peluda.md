@@ -20,9 +20,9 @@ Es decir, son los puntos en $\mathbb{R}^{n+1} $ que se encuentran a una distanci
 
 [FIGURA DEL CIRCULO UNITARIO.]
 
-El caso $n=2$ es la bola en cuestión. La 2-esfera son los puntos en el espacio de tres dimensiones que se encuentran a una distancia unitaria respecto el origen. Procedamos ahora con el siguiente concepto. Un campo vectorial sobre la n-esfera es un mapeo continuo $V: S^n \rightarrow \mathbb{R}^{n+1}$. Intuitivamente, podemos imaginar que a cada punto de la n-esfera le asignamos una flecha, teniendo cuidado con que esta asignación sea continua. Un campo vectorial que no se anula, es simplemente aquel que su valor nunca es cero. De nuevo, uno puede imaginarse que el vector cero es una flecha que no tiene longitud ni apunta a ningún lado (¿qué?).
+El caso $n=2$ es la bola en cuestión. La 2-esfera son los puntos en el espacio de tres dimensiones que se encuentran a una distancia unitaria respecto el origen. El siguiente concepto es el de "campo vectorial". Un campo vectorial sobre la n-esfera es un mapeo continuo $V: S^n \rightarrow \mathbb{R}^{n+1}$. Intuitivamente, podemos imaginar que a cada punto de la n-esfera le asignamos una flecha, teniendo cuidado con que esta asignación sea continua. Un campo vectorial que no se anula, es simplemente aquel que su valor nunca es cero. De nuevo, uno puede imaginarse que el vector cero es una flecha que no tiene longitud ni apunta a ningún lado (¿qué?).
 
-Entonces, ¿que nos dice el TBP? Este teorema es un teorema de existencia: podemos encontrar  
+Entonces, ¿que nos dice el TBP? Este teorema es un teorema de existencia: podemos encontrar un campo vectorial que se anula en algún punto de la esfera si la dimensión de la esfera es impar. Pero también esto es una equivalente: ¡Sólo las esferas de dimensión impar satisfacen lo anterior!
 
 
 Recordemos, y esto será relevante después, que en topología, todo espacio es equivalente a la n-esfera si encontramos un homemoorfi
