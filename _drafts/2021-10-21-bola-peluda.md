@@ -6,9 +6,9 @@ categories: posts
 tags: topología
 ---
 
-Este post no trata sobre climatología ni meteorología. No, este post trata sobre uno de los teoremas más bonitos y más profundos de la matemática: El Teorema de la Bola Peluda (TBP en adelante). 
+Este post no trata sobre climatología ni meteorología. No, este post trata sobre uno de los teoremas más bonitos y más profundos de la matemática: El Teorema de la Bola Peluda (TBP en adelante). No te preocupes, querido lector, también hablaremos sobre los huracanes. 
 
-¿Por qué este teorema tiene un nombre tan peculiar? Bueno, en primer lugar, este problema trata sobre esferas. Pero esferas en cualquier dimensión: uno, dos, cuatro mil trescientos o la que sea. En segundo lugar, se trata sobre el comportamiento de campos vectoriales sobre estas esferas. La _bola peluda_ es solo un caso particular de este teorema, siendo "bola", una esfera de dimensión dos, y los "pelos" un campo de vectores sobre esta.  
+Cabe preguntarse, ¿por qué este teorema tiene este nombre tan peculiar? Bueno, en primer lugar, este problema trata sobre esferas. Pero esferas en cualquier dimensión: uno, dos, cien, cuatro mil trescientos o la que sea. En segundo lugar, se trata sobre el comportamiento de campos vectoriales sobre estas esferas. La _bola peluda_ es solo un caso particular de este teorema, siendo "bola", una esfera de dimensión dos, y los "pelos" un campo de vectores sobre esta.  
 
 > **Teorema.** Existe un campo vectorial en $S^n$ que no se anula en ningún punto si y solo si $n$ es impar.
 
@@ -18,26 +18,38 @@ $$S^n = \{x \in \mathbb{R}^{n+1}: \lvert x \rvert = 1 \}. $$
 
 Es decir, son los puntos en $\mathbb{R}^{n+1} $ que se encuentran a una distancia igual a 1 respecto al origen. Consideremos, para clarificar lo anterior, el caso $n = 0$. En este caso, la 0-esfera es el conjunto $\{-1, 1\}$, pues estos son los únicos puntos en $\mathbb{R}$ que están a una distancia unitaria respecto al origen. De manera similar, se deduce la 1-esfera es el círculo unitario en el plano y que la 2-esfera es la bola en cuestión.
 
-El siguiente concepto es el de "campo vectorial". Un campo vectorial sobre la n-esfera es un mapeo continuo $V: S^n \rightarrow \mathbb{R}^{n+1}$, tal que $x$ y $V(x)$ son ortogonales. Intuitivamente, podemos imaginar que a cada punto de la n-esfera le asignamos una flecha tangente, teniendo cuidado con que esta asignación sea continua. Un campo vectorial que no se anula, es simplemente aquel que su valor nunca es cero. De nuevo, uno puede imaginarse que el vector cero es una flecha que no tiene longitud ni apunta a ningún lado (¿qué?).
+El siguiente concepto es el de "campo vectorial". Un campo vectorial sobre la n-esfera es un mapeo continuo $V: S^n \rightarrow \mathbb{R}^{n+1}$, tal que $x$ y $V(x)$ son ortogonales. Intuitivamente, un campo vectorial asigna a cada punto de la n-esfera una flecha tangente, teniendo cuidado con que esta asignación sea continua. Un campo vectorial que no se anula, es simplemente aquel que su valor nunca es cero. De nuevo, uno puede imaginarse que el vector cero es una flecha que no tiene longitud ni apunta a ningún lado (¿qué?).
 
-Entonces, ¿que nos dice el TBP? Este teorema es un teorema de existencia: podemos encontrar un campo vectorial que se **no anula** en algún punto de la esfera si la dimensión de la esfera es **impar**. Pero también es un teorema de equivalencia: ¡Sólo las esferas de dimensión impar satisfacen lo anterior!
+Entonces, ¿que nos dice el TBP? Primero, este es un teorema de existencia: si la dimensión de la esfera es **impar**, podemos encontrar un campo vectorial que **no se anula** en ningún punto de la esfera. Pero también es un teorema de equivalencia: ¡Sólo las esferas de dimensión impar satisfacen lo anterior!
 
 ¿Qué tienen de especial las esferas impares respecto las pares? Bueno, realmente esto es un misterio qué aún en nuestros días no entendemos con totalidad. Tal vez hablemos de esto en otro post. Por ahora, considero que nos servirá trabajar con los siguientes ejemplos. 
 
-El círculo unitario, $S^1$, es una esfera impar. Por tanto, el TBP establece que podemos definir un campo vectorial en $S^1$ que no se anule en ningún punto. Podemos pensar en muchos ejemplos, pero el siguiente es especial pues está conectado con otro concepto muy importante en las matemáticas: los grupos de Lie (del cual tal vez hablaré en otro post). Imaginemos una flecha unitaria tangente en un punto de $S^1$, por ejemplo, en el punto $(0, 1)$ que "apunte" hacia arriba, tal y como se muestra en la siguiente figura.
+El círculo unitario $S^1$, es una esfera de dimensión impar. Por tanto, el TBP establece que podemos definir un campo vectorial en $S^1$ que no se anule en ningún punto. Existen muchos ejemplos de estos campos relativamente sencillos. Nosotros escogeremos uno un poco rebuscado pero cuya construcción se debe a otro concepto muy importante en las matemáticas: los grupos de Lie (del cual tal vez hablaré en otro post). 
+
+Denotemos a nuestro campo como $R$. En el punto $(1, 0)$ de $S^1$, este campo asigna el vector $(1, 0)$. Note que este vector satisface la condición de ortogonalidad (o perpendicularidad). Ahora, lo que haremos es imaginarnos que $S^1$ es el contorno de una rueda, cuyo eje de rotación se encuentra en el origen. Si imaginamos que la base del vector $(1,0)$ se encuentra en el punto $(0, 1)$ y hacemos rotar a la rueda en contra de las manecillas del reloj con una velocidad constante, veremos como la flecha se mueve continuamente al rededor de $S^1$. Este será nuestro campo vectorial $R$. Vea la siguiente figura para una explicación gráfica.
 
 [FIGURA]
 
-Ahora, imaginemos que el círculo rueda en contra de las manecillas del reloj, haciendo que este vector se mueva al rededor el círculo. El campo vectorial anterior se define formalmente como, $V: S^1 \rightarrow \mathbb{R}^2$, 
+Si asumimos que ya hicimos la talacha de encontrar las ecuaciones, concluiríamos que el campo $R$ está definido como $R(x, y) = (-y, x)$. Claro que este campo es continuo y además por construcción (y como podemos ver en la fórmulita) nunca se anula en los puntos de la 1-esfera.
 
-$$V
+Ahora pasemos al caso de la bola peluda, es decir, el caso de un campo vectorial definido en la 2-esfera. Uno podría pensar que la construcción anterior funciona: ponemos una flecha en un punto de la pelota y la empezamos a rotar hasta cubrir toda la superficie con flechas. Rápidamente veríamos que si hacemos esto, aparecerían "apartados" en la cabellera de flechas. La interpretación de esto es que no existe una función continua en la 2-esfera que hace lo anterior.
 
+Tal vez uno podría pensar que lo anterior es solo un caso aislado. Lo invito a que pruebe con sus campos favoritos. Se dará cuenta que, o bien sus funciones no son continuas, o que siempre existe un punto en el que el campo se anule. En la siguiente figura se muestran algunos campos y sus singularidades.
 
-A partir de este resultado se dice que la esfera $S^2$ *no se puede peinar* continuamente.
+[FIGURA]
 
-Para demostrar este teorema, necesitamos enunciar cierta maquinaria homológica. Algunos resultados se presentan sin demostración. Para más detalles, ver [1]. 
+Pero bueno, podría preguntarse, querido lector, ¿qué tiene que ver todo esto con los huracanes? Pues bueno, uno podría imaginar que el viento (es decir, la velocidad del aire) es un campo vectorial sobre la superficie de la Tierra (una 2-esfera). Es natural asumir que este campo se comporta continuamente sobre la Tierra. Entonces, el TBP establece que en este momento (sí, en este preciso momento en el que usted está leyendo) en algún lugar en la Tierra la velocidad del aire es cero. Un lugar como este sería, por ejemplo, el ojo de un huracán.
+
+La figura siguiente muestra las corrientes de aire sobre la superficie de la Tierra en el preciso instante en el que este artículo está siendo escrito. Como puede comprobar, al parecer hay varios huracanes formándose en el hemisferio sur. Lo invito a que compruebe por cuenta propia el Teorema de la Bola Peluda en el [sitio web](https://earth.nullschool.net) de donde se obtuvo esta imagen.
+
+![Huracanes](/assets/images/wind-earth.png)
 
 ### Resultados de homología singular
+
+Una pequeña advertencia.
+> En esta sección y las siguientes se discuten aspectos más técnicos sobre este teorema. Fueron escritas con el propósito para que el autor no olvide las ideas generales de la demostración del TBP. Un lector no interesado en estos aspectos puede omitir su lectura.
+
+Para demostrar este teorema, necesitamos enunciar cierta maquinaria homológica. Algunos resultados se presentan sin demostración. Para más detalles, ver [1]. 
 
 Sea $X$ un espacio topológico. Denotemos por $C_p(X)$ al **grupo** **singular de cadenas de dimensión** $n$. A los elementos de $C_p(X)$ se les llama **p-cadenas singulares** en $X$. Existe un homomorfismo de grupos $\partial: C_p(X) \rightarrow C_{p-1}(X)$ llamado [operador frontera](https://en.wikipedia.org/wiki/Singular_homology#Singular_chain_complex) que satisface que $\partial (\partial c) = 0$ para toda c cadena singular. 
 
@@ -62,14 +74,13 @@ Como consecuencia inmediata se tiene que si $f: X \rightarrow Y$ es una equivale
 
 Existe una relación sencilla entre el grupo fundamental $\pi_1(X, x_0)$  de un espacio $X$ y su primer grupo de homología $H_1(X)$: el primer grupo de homología de $X$ es la [abelianización](https://en.wikipedia.org/wiki/Commutator_subgroup#Abelianization) del grupo fundamental de $X$. :exclamation:
 
-Consecuentemente, dado que $\pi_1(S^1, 1) \cong \mathbb Z$, se tiene que $H_1(S^1) \cong \mathbb Z$ y $H_1(S^n) \cong 0$ si $n \geq 2$ [^1]. 
+Consecuentemente, dado que $\pi_1(S^1, 1) \cong \mathbb Z$, se tiene que $H_1(S^1) \cong \mathbb Z$ y $H_1(S^n) \cong 0$ si $n \geq 2$.
 
 El siguiente teorema nos permite calcular grupos de homología de un espacio $X$ mediante el cálculo de grupos de homología de subconjuntos abiertos de $X$. Claro, esta reducción es útil si calcular los grupos de homología de estos abiertos es una tarea más sencilla que calcular los grupos de homología de $X$. Veremos que este es el caso para las n-esferas.
 
 **Teorema 2 (Mayer-Vietoris).** Sea $X$ un espacio topológico y sean $U, V$ subconjuntos abiertos de $X$ cuya unión es $X$. Entonces, para cada $p$  existe un homomorfismo $\partial_\ast: H_p(X) \rightarrow H_{p-1}(U \cap V)$ tal que la siguiente sucesión es [exacta](https://en.wikipedia.org/wiki/Exact_sequence):
 
 ![](/assets/images/mayer-vietoris.png)
-
 
 
 ### Homología de la n-esfera y teoría de grado
@@ -107,7 +118,7 @@ Como consecuencia inmediata de las propiedades functoriales de la homología se 
 1. $deg(g \circ f) = (deg(g)) \cdot (deg(f))$.
 2. Si $f$ y $g$ son homotópicos, entonces $deg(f) = deg(g)$.
 
-Cabe resaltar que el converso del punto 2. de la proposición también es cierto. Por tanto, el grado nos ofrece una clasificación homotópica de mapeos de $S^n$ en $S^n$ [^2].
+Cabe resaltar que el converso del punto 2. de la proposición también es cierto. Por tanto, el grado nos ofrece una clasificación homotópica de mapeos de $S^n$ en $S^n$.
 
 Si $Id_{S^n}: S^n \rightarrow S^n$ es el mapeo identidad, entonces su grado es igual a $1$. Esto muestra que $Id_{S^n}$ no es homotópicamente nula :exclamation:.   Sea $\alpha: S^n \rightarrow S^n$ el mapeo antipodal $x \mapsto -x$. Su grado es igual a $(-1)^{n+1}$. Por tanto, $\alpha$ es homotópico a la identidad si y solo si $n$ es impar. :exclamation:
 
@@ -136,9 +147,5 @@ Cabe mencionar que la maquinaria desarrollada hasta ahora nos permite demostrar 
 ### Referencias
 
 [1] Lee, J. (2010). *Introduction to Topological Manifolds*. Springer New York.
-
-[^1]: Ver por ejemplo [Propiedades de levantamientos]({% post_url 2021-05-21-prop-levantamientos %})
-[^2]:  Ver también las notas [*Clasificación homotópica de mapeos en el toro*]({%post_url 2021-06-18-homotopia-toro %}). 
-
 ---
 

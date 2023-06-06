@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Problema de punto fijo 1"
+title:  "Un problema de punto fijo "
 date:   2020-11-05 10:42:07 -0600
 categories: posts
 tags: análisis-real punto-fijo
