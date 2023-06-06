@@ -16,20 +16,22 @@ Desmenucemos los conceptos de este teorema. En primer lugar, formalmente la n-es
 
 $$S^n = \{x \in \mathbb{R}^{n+1}: \lvert x \rvert = 1 \}. $$
 
-Es decir, son los puntos en $\mathbb{R}^{n+1} $ que se encuentran a una distancia igual a 1 respecto al origen. Consideremos, para clarificar lo anterior, el caso $n = 0$. En este caso, la 0-esfera es el conjunto $\{-1, 1\}$, pues estos son los únicos puntos en $\mathbb{R}$ que están a una distancia unitaria respecto al origen. De manera similar, se deduce la 1-esfera es el círculo unitario en el plano, tal y como se aprecia en la siguiente figura.
+Es decir, son los puntos en $\mathbb{R}^{n+1} $ que se encuentran a una distancia igual a 1 respecto al origen. Consideremos, para clarificar lo anterior, el caso $n = 0$. En este caso, la 0-esfera es el conjunto $\{-1, 1\}$, pues estos son los únicos puntos en $\mathbb{R}$ que están a una distancia unitaria respecto al origen. De manera similar, se deduce la 1-esfera es el círculo unitario en el plano y que la 2-esfera es la bola en cuestión.
 
-[FIGURA DEL CIRCULO UNITARIO.]
+El siguiente concepto es el de "campo vectorial". Un campo vectorial sobre la n-esfera es un mapeo continuo $V: S^n \rightarrow \mathbb{R}^{n+1}$, tal que $x$ y $V(x)$ son ortogonales. Intuitivamente, podemos imaginar que a cada punto de la n-esfera le asignamos una flecha tangente, teniendo cuidado con que esta asignación sea continua. Un campo vectorial que no se anula, es simplemente aquel que su valor nunca es cero. De nuevo, uno puede imaginarse que el vector cero es una flecha que no tiene longitud ni apunta a ningún lado (¿qué?).
 
-El caso $n=2$ es la bola en cuestión. La 2-esfera son los puntos en el espacio de tres dimensiones que se encuentran a una distancia unitaria respecto el origen. El siguiente concepto es el de "campo vectorial". Un campo vectorial sobre la n-esfera es un mapeo continuo $V: S^n \rightarrow \mathbb{R}^{n+1}$, tal que sus valores son tangentes . Intuitivamente, podemos imaginar que a cada punto de la n-esfera le asignamos una flecha, teniendo cuidado con que esta asignación sea continua. Un campo vectorial que no se anula, es simplemente aquel que su valor nunca es cero. De nuevo, uno puede imaginarse que el vector cero es una flecha que no tiene longitud ni apunta a ningún lado (¿qué?).
-
-Entonces, ¿que nos dice el TBP? Este teorema es un teorema de existencia: podemos encontrar un campo vectorial que se anula en algún punto de la esfera si la dimensión de la esfera es impar. Pero también es un teorema de equivalencia: ¡Sólo las esferas de dimensión impar satisfacen lo anterior!
+Entonces, ¿que nos dice el TBP? Este teorema es un teorema de existencia: podemos encontrar un campo vectorial que se **no anula** en algún punto de la esfera si la dimensión de la esfera es **impar**. Pero también es un teorema de equivalencia: ¡Sólo las esferas de dimensión impar satisfacen lo anterior!
 
 ¿Qué tienen de especial las esferas impares respecto las pares? Bueno, realmente esto es un misterio qué aún en nuestros días no entendemos con totalidad. Tal vez hablemos de esto en otro post. Por ahora, considero que nos servirá trabajar con los siguientes ejemplos. 
 
-El círculo unitario, $S^1$, es una esfera impar. Por tanto, el TBP establece que podemos definir un campo vectorial en $S^1$ que no se anule en ningún punto. Podemos pensar en muchos ejemplos, pero el siguiente es especial pues está conectado con otro concepto muy importante en las matemáticas: los grupos de Lie (del cual tal vez hablaré en otro post). Imaginemos una flecha unitaria tangente en un punto de $S^1$, por ejemplo, en el punto $(0, 1)$ 
+El círculo unitario, $S^1$, es una esfera impar. Por tanto, el TBP establece que podemos definir un campo vectorial en $S^1$ que no se anule en ningún punto. Podemos pensar en muchos ejemplos, pero el siguiente es especial pues está conectado con otro concepto muy importante en las matemáticas: los grupos de Lie (del cual tal vez hablaré en otro post). Imaginemos una flecha unitaria tangente en un punto de $S^1$, por ejemplo, en el punto $(0, 1)$ que "apunte" hacia arriba, tal y como se muestra en la siguiente figura.
 
+[FIGURA]
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Hairy_ball_one_pole.jpg" style="zoom:15%;" />
+Ahora, imaginemos que el círculo rueda en contra de las manecillas del reloj, haciendo que este vector se mueva al rededor el círculo. El campo vectorial anterior se define formalmente como, $V: S^1 \rightarrow \mathbb{R}^2$, 
+
+$$V
+
 
 A partir de este resultado se dice que la esfera $S^2$ *no se puede peinar* continuamente.
 
