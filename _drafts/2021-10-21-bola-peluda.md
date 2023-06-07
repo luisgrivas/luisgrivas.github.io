@@ -28,7 +28,7 @@ El círculo unitario $S^1$, es una esfera de dimensión impar. Por tanto, el TBP
 
 Denotemos a nuestro campo como $R$. En el punto $(1, 0)$ de $S^1$, este campo asigna el vector $(1, 0)$. Note que este vector satisface la condición de ortogonalidad (o perpendicularidad). Ahora, lo que haremos es imaginarnos que $S^1$ es el contorno de una rueda, cuyo eje de rotación se encuentra en el origen. Si imaginamos que la base del vector $(1,0)$ se encuentra en el punto $(0, 1)$ y hacemos rotar a la rueda en contra de las manecillas del reloj con una velocidad constante, veremos como la flecha se mueve continuamente al rededor de $S^1$. Este será nuestro campo vectorial $R$. Vea la siguiente figura para una explicación gráfica.
 
-[FIGURA]
+![Campo vectorial en el círculo](/assets/images/circle-vf.gif)
 
 Si asumimos que ya hicimos la talacha de encontrar las ecuaciones, concluiríamos que el campo $R$ está definido como $R(x, y) = (-y, x)$. Claro que este campo es continuo y además por construcción (y como podemos ver en la fórmulita) nunca se anula en los puntos de la 1-esfera.
 
@@ -147,5 +147,3 @@ Cabe mencionar que la maquinaria desarrollada hasta ahora nos permite demostrar 
 ### Referencias
 
 [1] Lee, J. (2010). *Introduction to Topological Manifolds*. Springer New York.
----
-
