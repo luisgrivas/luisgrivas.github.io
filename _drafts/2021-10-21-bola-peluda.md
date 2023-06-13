@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "¿Por qué existen los huracanes?"
-date: 2021-10-20 20:10:00
+date: 2023-06-13 18:30:00
 categories: posts
 tags: topología
 ---
 
-Este post no trata sobre climatología ni meteorología. No, este post trata sobre uno de los teoremas más bonitos y más profundos de la matemática: El Teorema de la Bola Peluda (TBP en adelante). No te preocupes, querido lector, también hablaremos sobre los huracanes. 
+Este post no trata sobre climatología ni meteorología. No, este post trata sobre uno de los teoremas más bonitos y más profundos de la matemática: El Teorema de la Bola Peluda (TBP en adelante). Pero no te preocupes, querido lector, también hablaremos sobre huracanes. 
 
-Cabe preguntarse, ¿por qué este teorema tiene este nombre tan peculiar? Bueno, en primer lugar, este problema trata sobre esferas. Pero esferas en cualquier dimensión: uno, dos, cien, cuatro mil trescientos o la que sea. En segundo lugar, se trata sobre el comportamiento de campos vectoriales sobre estas esferas. La _bola peluda_ es solo un caso particular de este teorema, siendo "bola", una esfera de dimensión dos, y los "pelos" un campo de vectores sobre esta.  
+Cabe preguntarse, ¿por qué este teorema tiene este nombre tan peculiar? Bueno, en primer lugar, este problema trata sobre esferas. Pero esferas en cualquier dimensión: uno, dos, cien o cuatro mil trescientos. En segundo lugar, trata sobre el comportamiento de **campos vectoriales** sobre estas esferas. La _bola peluda_ es solo un caso particular de este teorema, siendo "bola", una esfera de dimensión dos, y los "pelos" un campo de vectores sobre esta.  
 
 > **Teorema.** Existe un campo vectorial en $S^n$ que no se anula en ningún punto si y solo si $n$ es impar.
 
@@ -18,13 +18,13 @@ $$S^n = \{x \in \mathbb{R}^{n+1}: \lvert x \rvert = 1 \}. $$
 
 Es decir, son los puntos en $\mathbb{R}^{n+1} $ que se encuentran a una distancia igual a 1 respecto al origen. Consideremos, para clarificar lo anterior, el caso $n = 0$. En este caso, la 0-esfera es el conjunto $\{-1, 1\}$, pues estos son los únicos puntos en $\mathbb{R}$ que están a una distancia unitaria respecto al origen. De manera similar, se deduce la 1-esfera es el círculo unitario en el plano y que la 2-esfera es la bola en cuestión.
 
-El siguiente concepto es el de "campo vectorial". Un campo vectorial sobre la n-esfera es un mapeo continuo $V: S^n \rightarrow \mathbb{R}^{n+1}$, tal que $x$ y $V(x)$ son ortogonales. Intuitivamente, un campo vectorial asigna a cada punto de la n-esfera una flecha tangente, teniendo cuidado con que esta asignación sea continua. Un campo vectorial que no se anula, es simplemente aquel que su valor nunca es cero. De nuevo, uno puede imaginarse que el vector cero es una flecha que no tiene longitud ni apunta a ningún lado (¿qué?).
+El otro concepto central es el de "campo vectorial". Un campo vectorial sobre la n-esfera es un mapeo continuo $V: S^n \rightarrow \mathbb{R}^{n+1}$, tal que $x$ y $V(x)$ son ortogonales. Intuitivamente, un campo vectorial asigna a cada punto de la n-esfera una flecha tangente, teniendo cuidado con que esta asignación sea continua. Un campo vectorial que no se anula, es simplemente aquel que su valor nunca es cero. De nuevo, uno puede imaginarse que el vector cero es una flecha que no tiene longitud ni apunta a ningún lado (¿qué?).
 
 Entonces, ¿que nos dice el TBP? Primero, este es un teorema de existencia: si la dimensión de la esfera es **impar**, podemos encontrar un campo vectorial que **no se anula** en ningún punto de la esfera. Pero también es un teorema de equivalencia: ¡Sólo las esferas de dimensión impar satisfacen lo anterior!
 
 ¿Qué tienen de especial las esferas impares respecto las pares? Bueno, realmente esto es un misterio qué aún en nuestros días no entendemos con totalidad. Tal vez hablemos de esto en otro post. Por ahora, considero que nos servirá trabajar con los siguientes ejemplos. 
 
-El círculo unitario $S^1$, es una esfera de dimensión impar. Por tanto, el TBP establece que podemos definir un campo vectorial en $S^1$ que no se anule en ningún punto. Existen muchos ejemplos de estos campos relativamente sencillos. Nosotros escogeremos uno un poco rebuscado pero cuya construcción se debe a otro concepto muy importante en las matemáticas: los grupos de Lie (del cual tal vez hablaré en otro post). 
+El círculo unitario $S^1$, es una esfera de dimensión impar. Por tanto, el TBP establece que podemos definir un campo vectorial en $S^1$ que no se anule en ningún punto. Existen muchos ejemplos sencillos de estos campos. Nosotros presentaremos uno cuya construcción se debe a otro concepto muy importante en las matemáticas: los grupos de Lie (del cual tal vez hablaré en otro post). 
 
 Denotemos a nuestro campo como $R$. En el punto $(1, 0)$ de $S^1$, este campo asigna el vector $(1, 0)$. Note que este vector satisface la condición de ortogonalidad (o perpendicularidad). Ahora, lo que haremos es imaginarnos que $S^1$ es el contorno de una rueda, cuyo eje de rotación se encuentra en el origen. Si imaginamos que la base del vector $(1,0)$ se encuentra en el punto $(0, 1)$ y hacemos rotar a la rueda en contra de las manecillas del reloj con una velocidad constante, veremos como la flecha se mueve continuamente al rededor de $S^1$. Este será nuestro campo vectorial $R$. Vea la siguiente figura para una explicación gráfica.
 
@@ -32,11 +32,11 @@ Denotemos a nuestro campo como $R$. En el punto $(1, 0)$ de $S^1$, este campo as
 
 Si asumimos que ya hicimos la talacha de encontrar las ecuaciones, concluiríamos que el campo $R$ está definido como $R(x, y) = (-y, x)$. Claro que este campo es continuo y además por construcción (y como podemos ver en la fórmulita) nunca se anula en los puntos de la 1-esfera.
 
-Ahora pasemos al caso de la bola peluda, es decir, el caso de un campo vectorial definido en la 2-esfera. Uno podría pensar que la construcción anterior funciona: ponemos una flecha en un punto de la pelota y la empezamos a rotar hasta cubrir toda la superficie con flechas. Rápidamente veríamos que si hacemos esto, aparecerían "apartados" en la cabellera de flechas. La interpretación de esto es que no existe una función continua en la 2-esfera que hace lo anterior.
+Ahora pasemos al caso de la bola peluda, es decir, el caso de un campo vectorial definido en la 2-esfera. Uno podría pensar que la construcción anterior funciona: ponemos una flecha en un punto de la pelota y la empezamos a rotar hasta cubrir toda la superficie con flechas. Rápidamente veríamos que si hacemos esto, aparecerían "apartados" o "remolinos" en la cabellera de flechas. Estos son los puntos donde el campo vectorial se anula. 
 
-Tal vez uno podría pensar que lo anterior es solo un caso aislado. Lo invito a que pruebe con sus campos favoritos. Se dará cuenta que, o bien sus funciones no son continuas, o que siempre existe un punto en el que el campo se anule. En la siguiente figura se muestran algunos campos y sus singularidades.
+Tal vez uno podría pensar que lo anterior es solo un caso aislado. Lo invito a que pruebe con sus campos favoritos. Se dará cuenta que, o bien sus funciones no son continuas, o que siempre existe un punto en el que el campo se anule. En su excelente libro, _Topology from the differentiable viewpoint_, [John Milnor](https://en.wikipedia.org/wiki/John_Milnor) nos muestra algunos bocetos de campos vectoriales sobre la esfera con distintos tipos de "remolinos" (donde el campo vectorial se anula). Estos se muestran en la siguiente figura.
 
-[FIGURA]
+![Imagen obtenida de Topology from a Differential Point of View](/assets/images/zeros-vf.png)
 
 Pero bueno, podría preguntarse, querido lector, ¿qué tiene que ver todo esto con los huracanes? Pues bueno, uno podría imaginar que el viento (es decir, la velocidad del aire) es un campo vectorial sobre la superficie de la Tierra (una 2-esfera). Es natural asumir que este campo se comporta continuamente sobre la Tierra. Entonces, el TBP establece que en este momento (sí, en este preciso momento en el que usted está leyendo) en algún lugar en la Tierra la velocidad del aire es cero. Un lugar como este sería, por ejemplo, el ojo de un huracán.
 
@@ -44,7 +44,7 @@ La figura siguiente muestra las corrientes de aire sobre la superficie de la Tie
 
 ![Huracanes](/assets/images/wind-earth.png)
 
-### Resultados de homología singular
+## Resultados de homología singular
 
 Una pequeña advertencia.
 > En esta sección y las siguientes se discuten aspectos más técnicos sobre este teorema. Fueron escritas con el propósito para que el autor no olvide las ideas generales de la demostración del TBP. Un lector no interesado en estos aspectos puede omitir su lectura.
@@ -83,7 +83,7 @@ El siguiente teorema nos permite calcular grupos de homología de un espacio $X$
 ![](/assets/images/mayer-vietoris.png)
 
 
-### Homología de la n-esfera y teoría de grado
+## Homología de la n-esfera y teoría de grado
 
 Con los resultados de la sección anterior estamos listos para calcular los grupos de homología de la n-esfera. 
 
@@ -122,7 +122,7 @@ Cabe resaltar que el converso del punto 2. de la proposición también es cierto
 
 Si $Id_{S^n}: S^n \rightarrow S^n$ es el mapeo identidad, entonces su grado es igual a $1$. Esto muestra que $Id_{S^n}$ no es homotópicamente nula :exclamation:.   Sea $\alpha: S^n \rightarrow S^n$ el mapeo antipodal $x \mapsto -x$. Su grado es igual a $(-1)^{n+1}$. Por tanto, $\alpha$ es homotópico a la identidad si y solo si $n$ es impar. :exclamation:
 
-### Resultado principal
+## Resultado principal
 
 Un **campo vectorial** en $S^n$ es un mapeo continuo $S^n \rightarrow \mathbb R^{n+1}$ tal que para toda $x \in S^n$, $V(x)$ es tangente a $S^n$ en $x$. Esto es, $V(x) \cdot x = 0$ para toda $x \in S^n$. 
 
@@ -144,6 +144,7 @@ es un campo vectorial que no se anula en ningún punto $x \in S^n$. :metal:
 
 Cabe mencionar que la maquinaria desarrollada hasta ahora nos permite demostrar otros teoremas interesantes. Esto lo discutiremos en notas posteriores.
 
-### Referencias
+## Referencias
 
 [1] Lee, J. (2010). *Introduction to Topological Manifolds*. Springer New York.
+[2] Milnor, John W. (1997). _Topology from the differentiable viewpoint_. Princeton Landmarks in Mathematics. Princeton, NJ: Princeton University Press. ISBN 0-691-04833-9.
