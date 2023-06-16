@@ -27,6 +27,9 @@ layout: default
       {% endfor %}
       {%- endif -%}
     </p>
+    {% if page.mermaid %}
+    {% include mermaid.html %}
+    {% endif %}
     </header>
 
   <div class="post-content e-content" itemprop="articleBody">
