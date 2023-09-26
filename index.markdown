@@ -13,3 +13,5 @@ Aunque mis intereses son variados, puede decirse que estos se encuentran en la i
 En la industria he trabajado en distintos proyectos: sistemas de recomendación, modelos de pricing, predicción de deserción de clientes, construcción de portafolios, entre otros. 
 
 Mi última publicación: {% for post in site.posts limit:1 %}  <a href="{{post.url | relative_url }}">{{ post.title | escape }}</a> {% endfor %}
+
+<p style="color:white;">"in the beginner's mind there are many possibilities, but in the expert's mind there are few"</p>
