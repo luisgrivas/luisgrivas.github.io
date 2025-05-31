@@ -11,3 +11,7 @@ params:
   socialIcons:
     - name: "github"
       url: "luisgrivas"
+
+caches:
+  images:
+    dir: :cacheDir/images
