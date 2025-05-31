@@ -1,3 +1,13 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: https://luisgrivas.com/
+languageCode: es-MX
+title: Notas de Una Mente Dispersa
+theme: ["PaperMod"]
+
+params:
+  homeInfoParams:
+    Title: Hola
+    Content: "Estas son mis notas de estudio." 
+
+  socialIcons:
+    - name: "github"
+      url: "luisgrivas"

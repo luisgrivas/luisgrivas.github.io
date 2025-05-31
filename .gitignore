@@ -3,3 +3,4 @@ _site
 Gemfile.lock
 .obsidian
 .DS_Store
+public
