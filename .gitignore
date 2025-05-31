@@ -4,3 +4,4 @@ Gemfile.lock
 .obsidian
 .DS_Store
 public
+.hugo_build.lock
