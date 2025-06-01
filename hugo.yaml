@@ -2,7 +2,6 @@ baseURL: https://luisgrivas.com/
 languageCode: es-MX
 title: Notas de Una Mente Dispersa
 theme: ["PaperMod"]
-googleAnalytics: "G-363555195"
 
 params:
   env: production
@@ -21,4 +20,4 @@ caches:
 
 
 analytics:
-  googleAnalytics: "G-363555195"
+  googleAnalytics: "G-JPY465M250"
