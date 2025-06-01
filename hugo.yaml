@@ -3,6 +3,7 @@ languageCode: es-MX
 title: Notas de Una Mente Dispersa
 theme: ["PaperMod"]
 googleAnalytics: "G-JPY465M250"
+defaultContentLanguage: es
 
 params:
   env: production
@@ -18,5 +19,3 @@ params:
 caches:
   images:
     dir: :cacheDir/images
-
-
