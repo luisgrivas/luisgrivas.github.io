@@ -4,6 +4,7 @@ title: Notas de Una Mente Dispersa
 theme: ["PaperMod"]
 
 params:
+  env: production
   math: true
   homeInfoParams:
     Title: Hola
