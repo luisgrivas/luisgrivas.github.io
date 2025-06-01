@@ -4,13 +4,14 @@ title: Notas de Una Mente Dispersa
 theme: ["PaperMod"]
 
 params:
+  math: true
   homeInfoParams:
     Title: Hola
     Content: "Estas son mis notas de estudio." 
 
   socialIcons:
     - name: "github"
-      url: "luisgrivas"
+      url: "https://github.com/luisgrivas"
 
 caches:
   images:
