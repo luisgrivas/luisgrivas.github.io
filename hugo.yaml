@@ -16,3 +16,7 @@ params:
 caches:
   images:
     dir: :cacheDir/images
+
+
+analytics:
+  googleAnalytics: "G-363555195"
