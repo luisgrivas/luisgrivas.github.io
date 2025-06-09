@@ -5,6 +5,12 @@ theme: ["PaperMod"]
 googleAnalytics: "G-JPY465M250"
 defaultContentLanguage: es
 
+menu:
+  main:
+    - name: search
+      url: /search/
+      weight: 1
+
 params:
   env: production
   math: true
