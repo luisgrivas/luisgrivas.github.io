@@ -7,7 +7,7 @@ author: ["lfgr"]
 
 Mientras me preparaba para el examen general de análisis de la UNAM, me topé con
 el siguiente problema. Su solución me pareció especialmente bonita por la forma
-en que combina distintas herramientas del análisis
+en que combina distintas herramientas del análisis.
 
 > Sea $f: \mathbb R \rightarrow \mathbb R$ continuamente diferenciable
 en $\mathbb R$ e impar. Demuestre que
