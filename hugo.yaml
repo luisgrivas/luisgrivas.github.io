@@ -14,8 +14,11 @@ menu:
 params:
   env: production
   math: true
+  author: lfgr
+  ShowCodeCopyButtons: true
+
   homeInfoParams:
-    Title: Hola
+    Title: 👋 Hola
     Content: "Estas son mis notas de estudio." 
 
   socialIcons:
