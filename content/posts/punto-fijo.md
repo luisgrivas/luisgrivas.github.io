@@ -3,6 +3,7 @@ title:  "Un problema de punto fijo"
 date:   2020-11-05 10:42:07 -0600
 lastmod: 2025-06-13 18:55:00
 draft: false
+tags: ["analisis"]
 ---
 
 > Sea $f: \mathbb{R} \rightarrow \mathbb{R} $ una función continua tal que $1$ aparece en
