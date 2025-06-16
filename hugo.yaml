@@ -19,6 +19,7 @@ params:
   math: true
   author: lfgr
   ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
 
   homeInfoParams:
     Title: 👋 Hola
