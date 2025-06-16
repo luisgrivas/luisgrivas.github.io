@@ -28,6 +28,8 @@ params:
   socialIcons:
     - name: "github"
       url: "https://github.com/luisgrivas"
+    - name: "leetcode"
+      url: "https://leetcode.com/luisgrivas/"
 
 caches:
   images:
