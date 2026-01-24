@@ -10,7 +10,7 @@ menu:
     - name: search
       url: /search/
       weight: 3
-    - name: notes
+    - name: notas
       url: /notes/
       weight: 2
     - name: acerca
