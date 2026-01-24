@@ -15,7 +15,7 @@ menu:
       weight: 1
 
 params:
-  # env: production
+  env: production
   math: true
   author: lfgr
   ShowCodeCopyButtons: true
