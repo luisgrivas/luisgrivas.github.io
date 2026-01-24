@@ -9,8 +9,11 @@ menu:
   main:
     - name: search
       url: /search/
+      weight: 3
+    - name: notes
+      url: /notes/
       weight: 2
-    - name: about
+    - name: acerca
       url: /about/
       weight: 1
 
