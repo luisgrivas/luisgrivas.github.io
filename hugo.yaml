@@ -1,4 +1,4 @@
-baseURL: https://luisgrivas.com/
+# baseURL: https://luisgrivas.com/
 languageCode: es-MX
 title: notas de una mente dispersa
 theme: ["PaperMod"]
@@ -15,7 +15,7 @@ menu:
       weight: 1
 
 params:
-  env: production
+  # env: production
   math: true
   author: lfgr
   ShowCodeCopyButtons: true
